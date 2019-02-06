@@ -1,0 +1,42 @@
+.example-card {
+    max-width: 250px;
+  }
+.example-header-scimage {
+  background-image: url('http://chittagongit.com//images/neural-network-icon/neural-network-icon-25.jpg');
+  background-size: cover;
+}
+.example-header-usimage {
+  background-image: url('https://cdn.onlinewebfonts.com/svg/img_568656.png');
+  background-size: cover;
+}
+.example-header-taskimage {
+  background-image: url('https://cdn3.iconfinder.com/data/icons/online-user-1/120/user-edit-2-512.png');
+  background-size: cover;
+}
+.example-header-tcmimage {
+  background-image: url('http://chittagongit.com//images/personal-profile-icon/personal-profile-icon-11.jpg');
+  background-size: cover;
+}
+.example-header-bugsimage {
+  background-image: url('https://cdn.onlinewebfonts.com/svg/img_515232.png');
+  background-size: cover;
+}
+.example-header-tfsconfigimage {
+  background-image: url('https://www.pcper.com/files/news/2015-07-30/microsoft-vs-logo.png');
+  background-size: cover;
+}
+.example-radio-group {
+    display: inline-flex;
+    flex-direction: column;
+  }
+.example-radio-button {
+    margin: 5px;
+  }
+.example-selected-value {
+    margin: 15px 0;
+  }
+p {
+ text-align: center;
+ text-indent: 10px;
+ letter-spacing: 1px;
+}
