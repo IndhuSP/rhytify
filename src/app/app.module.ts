@@ -5,8 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ConfigbodyComponent } from './configbody/configbody.component';
 import 'hammerjs';
-import {MatCardModule,MatButtonModule,MatRadioModule,MatDividerModule,MatIconModule} from '@angular/material';
-
+import { MatCardModule,MatButtonModule,MatRadioModule,MatDividerModule,MatIconModule,MatInputModule,MatGridListModule,MatFormFieldModule} from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//import {CommonModule} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import {MatCardModule,MatButtonModule,MatRadioModule,MatDividerModule,MatIconMod
   ],
   imports: [
     BrowserModule,FormsModule,
-    AppRoutingModule,MatCardModule,MatButtonModule,MatRadioModule,MatDividerModule,MatIconModule
+    AppRoutingModule,MatCardModule,MatButtonModule,MatRadioModule,MatDividerModule,MatIconModule,MatInputModule,MatGridListModule
+    ,MatFormFieldModule,FlexLayoutModule,BrowserAnimationsModule
+  //CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ConfigbodyComponent} from './configbody/configbody.component';
 
 @Component({
   selector: 'app-root',
